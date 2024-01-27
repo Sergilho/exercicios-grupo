@@ -2,10 +2,9 @@
 
 
 fun main() {
-    val numeros = Array(101){
-        it
-    }
-    for (numero in numeros) {
-        println(numero)
+    for (numero in 1..100) {
+        if (numero % 2 == 1){
+            println(numero)
+        }
     }
 }
